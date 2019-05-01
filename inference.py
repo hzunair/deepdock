@@ -3,7 +3,7 @@ from inference_helpers import *
 if __name__ == '__main__':
     # get file names in data directory
     filenames = get_filenames()
-    # https://rock-it.pl/how-to-reuse-keras-deep-neural-network/
+    
     # load model
     model = None
     model = load_model("model.h5", custom_objects={'f1':f1})
