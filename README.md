@@ -1,10 +1,11 @@
 ## Dockerize a deep learning model for easy distribution.
 
 
-# Usage
+### Usage
 
 * Clone this repo
-* Go to the repo and build the container  
+* Insert the images in the ```data``` directory which you want to classify
+* Build the container  
 ```
 docker build -t your_container_name .
 ```
